@@ -1,0 +1,273 @@
+body {
+    box-sizing: border-box;
+}
+
+
+.header {
+    padding-top: 15px;
+    height: 650px;
+    background-image: url(pexels-mnz-1598507.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.Logo {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 40px;
+    color: #FFE74C;
+    
+}
+
+.Logo:hover {
+    text-decoration: none;
+    color: #629677;
+}
+
+.Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Top li a {
+    margin-left: 10px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.Nav li {
+    display: inline;
+    margin-right: 50px;
+    padding: 30px 10px;
+    font-size: larger;
+
+}
+
+.Nav {
+    margin-top: 20px;
+}
+
+.one {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+}
+
+.two {
+    color: #ffff;
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.one:hover {
+    text-align: center;
+    color: #FF5964;
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.two:hover {
+    text-align: center;
+    color: #FFE74C;
+    font-size: large;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 150px;
+    margin-top: 90px;
+    font-family: 'Trocchi', serif;
+    font-weight: bolder;
+}
+
+h1, h5 {
+    color: white;
+    text-align: center;
+}
+
+h5 {
+    font-size: 19px;
+    margin-top: 50px;
+    font-family: 'Spectral SC', serif;
+}
+
+
+/*
+
+.orderbutton {
+    margin-right: 130px;
+    text-align: right;
+    margin-top: 60px;
+    padding: 25px 15px;
+}
+
+button {
+    color: #979B8D;
+    padding: 6px 25px;
+    background-color: #214E34;
+    border-radius: 10%;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: 'Courier Prime', monospace;
+}
+
+ button:hover {
+    font-size: larger;
+    color: #EFD0CA;
+    background-color: rgba(33, 78, 52, 0.466); 
+    font-family: 'Courier Prime', monospace;
+}
+*/
+.Section2 {
+    padding: 70px 0px;
+    align-items: center;
+    background-color: rgb(224, 248, 221);
+    
+}
+
+.Section2 h2 {
+    text-align: center;
+    border-bottom: 0.8px solid rgb(150, 150, 150);
+    padding-bottom: 30px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 35px;
+    font-weight: 800;
+    color: #818181;
+}
+
+
+
+.Section2 .row {
+    padding-top: 30px;
+}
+
+
+.card {  
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-sizing: content-box;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    max-width: 300px;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.card1 {
+    margin-top: 25px;
+}
+
+.card2 {
+    margin-top: 50px;
+}
+
+
+
+
+
+.Img1 {
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+.Section2 h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sansita Swashed', cursive;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #629677;
+}
+
+.Section2 h6 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Section2 p {
+    text-align: justify;
+    font-family: 'Trocchi', serif;
+    line-height: 1.4em;
+    font-size: 17px;
+}
+
+.ordbutton {
+    margin-left: 95px;
+    margin-bottom: 20px;
+    color: #ffff;
+    background-color: #629677;
+    padding: 6px 20px;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.Section5 {
+    padding: 70px 0px;
+    background-color: rgba(200, 216, 221, 0.274);
+}
+
+.Section5 h6 {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.Section6 {
+    text-align: center;
+    background-color: rgb(224, 248, 221);
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.Section6 .png {
+    padding-right: 15px;
+}
+
+
+.Section7 {
+    padding: 30px 0px;
+    background-color: rgba(200, 216, 221, 0.274);
+}
+
+
+.Section7 p {
+    font-size: small;
+    margin-bottom: 4px;
+}
+
+.Section7 span {
+    font-size: small;
+    margin-top: -7px;
+}
+
+.card.imgg{
+    margin-bottom: -10px;
+}
+
+.card.imgg2 {
+    margin-bottom: 0px;
+    margin-top: 80px;
+}

@@ -1,0 +1,995 @@
+body {
+    box-sizing: border-box;
+}
+
+
+.header {
+    padding-top: 15px;
+    height: 620px;
+    background-image: url(Ankara/ananana.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+
+.Brand-title {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.Brand-title {
+    font-size: 1.8rem;
+    margin: .5rem;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    padding-right: 5rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+
+
+.link {
+    color: #F7F3E3;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Josefin Slab', serif;
+}
+
+.link:hover {
+    text-align: center;
+    color: #7FB7BE;
+    font-size: large;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-size: 150px;
+    margin-top: 90px;
+    font-family: 'Trocchi', serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h1, h5 {
+    color: white;
+    text-align: center;
+}
+
+h5 {
+    font-size: 19px;
+    margin-top: 50px;
+    font-family: 'Spectral SC', serif;
+}
+
+
+/*
+
+.orderbutton {
+    margin-right: 130px;
+    text-align: right;
+    margin-top: 60px;
+    padding: 25px 15px;
+}
+
+button {
+    color: #979B8D;
+    padding: 6px 25px;
+    background-color: #214E34;
+    border-radius: 10%;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: 'Courier Prime', monospace;
+}
+
+ button:hover {
+    font-size: larger;
+    color: #EFD0CA;
+    background-color: rgba(33, 78, 52, 0.466); 
+    font-family: 'Courier Prime', monospace;
+}
+*/
+.Section2 {
+    padding: 70px 0px;
+    align-items: center;
+    background-color: rgb(224, 248, 221);
+    
+}
+
+.Section2 h2 {
+    text-align: center;
+    border-bottom: 0.8px solid rgb(150, 150, 150);
+    padding-bottom: 30px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+
+
+.Section2 .row {
+    padding-top: 30px;
+}
+
+
+.card {  
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-sizing: content-box;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.card1 {
+    margin-top: 25px;
+}
+
+.card2 {
+    margin-top: 0px;
+}
+
+
+
+.Img1 {
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+.Section2 h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sansita Swashed', cursive;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #629677;
+}
+
+.Section2 h6 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Section2 p {
+    text-align: justify;
+    font-family: 'Trocchi', serif;
+    line-height: 1.4em;
+    font-size: 17px;
+}
+
+.ordbutton {
+    margin-left: 95px;
+    margin-bottom: 20px;
+    color: #ffff;
+    background-color: #629677;
+    padding: 6px 20px;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.Section5 {
+    padding: 70px 0px;
+    background-color: rgba(200, 216, 221, 0.274);
+}
+
+.Section5 h6 {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.Section6 {
+    text-align: center;
+    background-color: rgb(224, 248, 221);
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.Section6 .png {
+    padding-right: 15px;
+}
+
+
+.Section7 {
+    padding: 30px 0px;
+    background-color: rgba(200, 216, 221, 0.274);
+}
+
+
+.Section7 p {
+    font-size: small;
+    margin-bottom: 19px;
+}
+
+.Section7 h6 {
+    font-size: small;
+    margin-top: 0px;
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10%;
+}
+
+
+@media (Max-width: 378px) {
+    * {
+        box-sizing: border-box;
+    }
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+   
+    .navbar-links.active {
+        display: flex;
+    }
+    
+    .header {
+        padding-top: 15px;
+        height: 350px;
+        background-image: url(Ankara/ananana.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin-top: 100px;
+        font-weight: bolder;
+        font-family: 'Merienda One', cursive;
+        text-transform: uppercase;
+    }
+
+    h1, h5 {
+        color: white;
+        text-align: center;
+    }
+    
+    h5 {
+        color: white;
+        font-size: 13px;
+        margin-top: 22px;
+        font-family: 'Merienda One', cursive;
+    }
+
+    .orderbutton {
+        margin-right: 0px;
+        text-align: left;
+        margin-top: 25px;
+        padding: 18px 11px;
+    }
+    
+    button {
+        color: #ffffff;
+        padding: 6px 18px;
+        background-color:  rgba(250, 170, 49, 0.76);
+        border-radius: 5%;
+        border-color: transparent;
+        font-size: 1px;
+        font-weight: 900;
+        font-family: 'Courier Prime', monospace;
+    }
+
+    button:hover {
+        font-size: medium;
+        font-weight: bold;
+        color: #EFD0CA;
+        background-color: rgb(250, 169, 49); 
+        font-family: 'Courier Prime', monospace;
+    }
+
+    .Section2 .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Section1 {
+        background-color: rgba(200, 216, 221, 0.274);
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .Section1 .New {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+   .text1 {
+        margin-bottom: 12px;
+    }
+
+    .text1 {
+        font-family: 'Courier Prime', monospace;
+        border-radius: 5px;
+        line-height: 1.4em;
+        color: #818181;
+    }
+    
+    .text1 h3 {
+        text-align: left;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Spectral SC', serif;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #dadada;
+    }
+    
+    .Maintext {
+        padding-top: 14px;
+        text-align: left;
+    }
+
+    .button2 {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        margin-top: 19px;
+        font-size: small;
+        text-align: center;
+    }
+
+    .Section2 {
+        background-color: rgba(229, 226, 226, 0.178);
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .Section2 h2 {
+        font-size: 21px;
+    }
+
+   
+    
+    .sect2 .imgset2 {
+        margin-left: 50px;
+        height: 200px;
+        width: 300px;
+        padding-top: 15px;
+    }
+
+    .sect2 .imgset1 {
+        margin-left: 50px;
+        height: 200px;
+        width: 300px;
+        padding-bottom: 0px;
+    }
+
+    .sect2 .imgset22 {
+        margin-left: 50px;
+        height: 200px;
+        width: 300px;
+        padding-top: 15px;
+    }
+
+    .sect2 .imgset11 {
+        margin-left: 50px;
+        height: 200px;
+        width: 300px;
+    }
+
+    
+    .Section3 {
+        background-color: rgba(200, 216, 221, 0.274);
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .Section3 h2 {
+        font-size: 21px;
+        font-family: 'Secular One', sans-serif;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #dadada;
+    }
+    
+    .Section3 p {
+        padding-top: 18px;
+        padding-bottom: 35px;
+        font-family: 'Trocchi', serif;
+    }
+    
+    .phone {
+        text-decoration: underline;
+    }
+    
+    .contact {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .email {
+        padding-top: 21px;
+    }
+    
+    .Button4 {
+        margin-top: 20px;
+        background: black;
+        color: white;
+        font-family: 'Merienda One', cursive;
+        font-size: small;
+        margin-bottom: 20px;
+    }
+    
+    .Button4:hover {
+        color: Black;
+        background-color: transparent;
+        font-family: 'Merienda One', cursive;
+    }
+
+    .Section4 {
+        background-color: rgba(229, 226, 226, 0.178);
+        padding-top: 24px;
+        padding-bottom: 32px;
+        text-align: center;
+    }
+    
+    .Section4 h2 {
+        padding-top: 3px;
+        padding-bottom: 20px;
+        font-family: 'Secular One', sans-serif;
+        color: #818181;
+        font-size: 21px;
+    }
+    
+    .Section4 p {
+        font-size: 11px;
+        color: #818181;
+        font-family: 'Merienda One', cursive;
+        margin-bottom: -1px;
+    }
+    
+    .Section4 .Link {
+        text-decoration: underline;
+        color: #463F3A;
+        font-size: 12px;
+    }
+    
+    .Link:hover {
+        font-size: large;
+        color: #463F3A;
+    }
+
+    
+    .Section5 {
+        background-color: rgba(200, 216, 221, 0.274);
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .Section5 h6 {
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Courier Prime', monospace;
+    }
+
+
+    .Section6 {
+        text-align: center;
+        background-color: rgba(229, 226, 226, 0.178);
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .Section6 .png {
+        padding-right: 11px;
+    }
+
+    footer {
+        font-family: 'Courier Prime', monospace;
+    }
+        
+
+    .card {  
+        margin-left: 12.5px;
+        border-radius: 25px;
+        box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+        box-sizing: content-box;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 20px;
+        max-width: 280px;
+        max-height: 280px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .imgBx .Img1 {
+        max-width: 150px;
+        max-height: 190px;
+        margin-right: 15px;
+    }
+
+    .Section2 h3 {
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Sansita Swashed', cursive;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: #629677;
+    }
+
+    .content h3 {
+        text-align: center;
+    }
+
+    .content h6 {
+        text-align: center;
+    }
+
+    .ordbutton {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        color: #ffff;
+        background-color: #629677;
+        padding: 2px 9px;
+        font-family: 'Indie Flower', cursive;
+        border-radius: 5px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .Section2 h6 {
+        text-align: center;
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+    
+    .Section2 p {
+        text-align: justify;
+        font-family: 'Trocchi', serif;
+        line-height: 1.1em;
+        font-size: 12px;
+    }
+
+    .Section7 p {
+        font-size: small;
+        margin-bottom: 19px;
+        justify-self: center;
+    }
+    
+    .Section7 h6 {
+        text-align: center;
+        font-size: small;
+        margin-top: 0px;
+    }
+}
+
+
+@media (min-width: 378px) and (max-width: 576px) {
+    * {
+        box-sizing: border-box;
+    }
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+   
+    .navbar-links.active {
+        display: flex;
+    }
+    
+    .header {
+        padding-top: 15px;
+        height: 400px;
+        background-image: url(Ankara/ananana.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-top: 120px;
+        font-weight: bolder;
+        font-family: 'Merienda One', cursive;
+        text-transform: uppercase;
+    }
+
+    h1, h5 {
+        color: white;
+        text-align: center;
+    }
+    
+    h5 {
+        color: white;
+        font-size: 14px;
+        margin-top: 24px;
+        font-family: 'Merienda One', cursive;
+    }
+
+    .orderbutton {
+        margin-right: 0px;
+        text-align: left;
+        margin-top: 30px;
+        padding: 20px 12px;
+    }
+    
+    button {
+        color: #ffffff;
+        padding: 7px 21px;
+        background-color:  rgba(250, 170, 49, 0.76);
+        border-radius: 5%;
+        border-color: transparent;
+        font-size: 15px;
+        font-weight: 900;
+        font-family: 'Courier Prime', monospace;
+    }
+
+    button:hover {
+        font-size: large;
+        font-weight: bold;
+        color: #EFD0CA;
+        background-color: rgb(250, 169, 49); 
+        font-family: 'Courier Prime', monospace;
+    }
+
+    .Section2 .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Section1 {
+        background-color: rgba(200, 216, 221, 0.274);
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .Section1 .New {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+   .text1 {
+        margin-bottom: 15px;
+    }
+
+    .text1 {
+        font-family: 'Courier Prime', monospace;
+        border-radius: 5px;
+        line-height: 1.6em;
+        color: #818181;
+    }
+    
+    .text1 h3 {
+        text-align: left;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Spectral SC', serif;
+        padding-bottom: 29px;
+        border-bottom: 1px solid #dadada;
+    }
+    
+    .Maintext {
+        padding-top: 17px;
+        text-align: left;
+    }
+
+    .button2 {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-size: small;
+        text-align: center;
+    }
+
+    .Section2 {
+        background-color: rgba(229, 226, 226, 0.178);
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .Section2 h2 {
+        font-size: 25px;
+    }
+
+   
+    
+    .sect2 .imgset2 {
+        margin-left: 80px;
+        height: 250px;
+        width: 350px;
+        padding-top: 15px;
+    }
+
+    .sect2 .imgset1 {
+        margin-left: 80px;
+        height: 250px;
+        width: 350px;
+        padding-bottom: 0px;
+    }
+
+    .sect2 .imgset22 {
+        margin-left: 80px;
+        height: 250px;
+        width: 350px;
+        padding-top: 15px;
+    }
+
+    .sect2 .imgset11 {
+        margin-left: 80px;
+        height: 250px;
+        width: 350px;
+    }
+
+    
+    .Section3 {
+        background-color: rgba(200, 216, 221, 0.274);
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
+    .Section3 h2 {
+        font-size: 25px;
+        font-family: 'Secular One', sans-serif;
+        padding-bottom: 18px;
+        border-bottom: 1px solid #dadada;
+    }
+    
+    .Section3 p {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        font-family: 'Trocchi', serif;
+    }
+    
+    .phone {
+        text-decoration: underline;
+    }
+    
+    .contact {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .email {
+        padding-top: 25px;
+    }
+    
+    .Button4 {
+        margin-top: 20px;
+        background: black;
+        color: white;
+        font-family: 'Merienda One', cursive;
+        font-size: small;
+        margin-bottom: 20px;
+    }
+    
+    .Button4:hover {
+        color: Black;
+        background-color: transparent;
+        font-family: 'Merienda One', cursive;
+    }
+
+    .Section4 {
+        background-color: rgba(229, 226, 226, 0.178);
+        padding-top: 30px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    
+    .Section4 h2 {
+        padding-top: 3px;
+        padding-bottom: 20px;
+        font-family: 'Secular One', sans-serif;
+        color: #818181;
+        font-size: 25px;
+    }
+    
+    .Section4 p {
+        font-size: 12px;
+        color: #818181;
+        font-family: 'Merienda One', cursive;
+        margin-bottom: -1px;
+    }
+    
+    .Section4 .Link {
+        text-decoration: underline;
+        color: #463F3A;
+        font-size: 13px;
+    }
+    
+    .Link:hover {
+        font-size: large;
+        color: #463F3A;
+    }
+
+    
+    .Section5 {
+        background-color: rgba(200, 216, 221, 0.274);
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .Section5 h6 {
+        text-align: center;
+        font-size: 13px;
+        font-family: 'Courier Prime', monospace;
+    }
+
+
+    .Section6 {
+        text-align: center;
+        background-color: rgba(229, 226, 226, 0.178);
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    
+    .Section6 .png {
+        padding-right: 11px;
+    }
+
+    footer {
+        font-family: 'Courier Prime', monospace;
+    }
+        
+
+    .card {  
+        align-items: center;
+        margin-right: 0px;
+        border-radius: 25px;
+        box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+        box-sizing: content-box;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 20px;
+        max-width: 450px;
+        max-height: 450px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .imgBx .Img1 {
+        max-width: 200px;
+        max-height: 400px;
+        margin-right: 15px;
+    }
+
+    .content h3 {
+        text-align: left;
+    }
+
+    .content h6 {
+        text-align: center;
+    }
+
+    .ordbutton {
+        margin-left: 60px;
+    }
+
+    .Section2 h6 {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .Section2 p {
+        text-align: justify;
+        font-family: 'Trocchi', serif;
+        line-height: 1.3em;
+        font-size: 14px;
+    }
+
+    .Section7 p {
+        font-size: small;
+        margin-bottom: 19px;
+    }
+    
+    .Section7 h6 {
+        text-align: center;
+        font-size: small;
+        margin-top: 0px;
+    }
+}
+
